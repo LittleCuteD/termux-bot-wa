@@ -3,7 +3,7 @@ const figlet = require('figlet')
 let { spawn } = require('child_process')
 let path = require('path')
 const CFonts  = require('cfonts')
-
+ 
 lolcatjs.options.seed = Math.round(Math.random() * 1000);
 lolcatjs.options.colors = true;
 
@@ -13,7 +13,7 @@ align: 'left',
 gradient: ['magenta', 'red']
 })
 
-CFonts.say('--------------------------------', {
+CFonts.say('--------------- -----------------', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'yellow']
